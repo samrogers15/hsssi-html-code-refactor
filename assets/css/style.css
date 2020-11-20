@@ -61,8 +61,8 @@ body {
 }
 
 /* This code sets the style for the hero image within the first section element on the page. */
-.hero {
-    height: 800px;
+.hero img {
+    height: 100%;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
