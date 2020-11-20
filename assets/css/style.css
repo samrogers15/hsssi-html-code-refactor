@@ -1,0 +1,162 @@
+/* This code sets the style for the entire page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This code sets the style for all a tags on the page. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This code sets the font size for all p tags on the page. */
+p {
+    font-size: 16px;
+}
+
+/* This code sets the background color for the body of the page. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* This code sets the style for the header on the page. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This code sets the style for the h1 tag within the header on the page. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* This code adjusts the color for the .seo class for the h1 tag within the header on the page. */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* This code sets the style for the nav element within the header on the page. */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* This code sets the style for the ul within the nav element. */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* This code sets the style for the li within the nav ul element. */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* This code sets the style for the hero image within the first section element on the page. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* This code sets the style for the "content" section element on the page. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* This code sets the style for the three article elements with the "content" section element. */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* This code sets the style for the two article images that should be floated left. */
+.search-engine-optimization img,
+.social-media-marketing img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* This code sets the style for the article image that should be floated right. */
+.online-reputation-management img {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+/* This code sets the style for the h2 elements within the "content" section articles. */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This code sets the style for the "benefit" aside element on the page. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* This code sets the style for the three article elements within the "benefit" aside element. */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* This code sets the style for the h3 elements within the "benefit" aside articles. */
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* This code sets the style for the three images within the "benefit" aside articles. */
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* This code sets the style for the footer on the page. */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* This code sets the style for the h4 element on the footer on the page. */
+.footer h4 {
+    font-size: 20px;
+}
