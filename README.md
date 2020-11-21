@@ -1,4 +1,4 @@
-# hsssi-html-code-refactor
+# Horiseon Social Solution Services Inc. Code Refactor
 > This is a code refactor done on behalf of Horiseon Social Solution Services Inc.
 
 ## Table of contents
